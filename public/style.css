@@ -26,17 +26,49 @@
     height: 100vh;
 }
 
-.carousel {
-    margin-top: 30px;
+.border {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    border: none !important;
 }
 
-.carousel-img {
-    width:  1000px;
-    height: 500px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+.food-text {
+    background-color: #f3f3f3;
+    width: 25%;
     margin: 0 auto;
+    text-align: center;
+}
+
+.food-1 {
+    background: url(./Images/food-1.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    margin-top: 30px;
+    position: relative;
+}
+
+.food-2 {
+    background: url(./Images/food-2.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    position: relative;
+}
+
+.food-3 {
+    background: url(./Images/food-3.jpeg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    position: relative;
+}
+
+.info {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #f3f3f3;
 }
 
 .recipes {
